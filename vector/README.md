@@ -2,7 +2,7 @@
 
 Vectors are sequence containers representing arrays that can change in size.
 
-## More infomation
+## More information
 
 http://www.cplusplus.com/reference/vector/vector/
 
