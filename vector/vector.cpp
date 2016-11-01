@@ -33,6 +33,8 @@ int main() {
 	v.swap(a);
 
 	// Print 10 Zeros using an iterator (because we swapped v and a)
+	// This is better
+	// Read this for more info: http://www.cprogramming.com/tutorial/stl/iterators.html
 	cout << endl << "Printing v using an iterator: \t";
 	for(vector<int>::iterator it = v.begin(); it != v.end(); ++it) {
 		cout << *it << " ";
