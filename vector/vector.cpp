@@ -1,7 +1,3 @@
-// More Info: http://www.cplusplus.com/reference/vector/vector/
-
-// Vectors are sequence containers representing arrays that can change in size.
-// Compile with "g++ -std=c++11 vector.cpp"
 #include <iostream>
 #include <vector>
 using namespace std;

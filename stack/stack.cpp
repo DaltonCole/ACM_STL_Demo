@@ -1,5 +1,3 @@
-// More info: http://www.cplusplus.com/reference/stack/stack/
-
 #include <iostream>
 #include <stack>
 using namespace std;
@@ -24,5 +22,7 @@ int main() {
 		cout << p.top() << endl;
 		p.pop();
 	}
+
+	return 0;
 }
 

@@ -1,9 +1,3 @@
-// More info: http://www.cplusplus.com/reference/unordered_set/unordered_set/
-
-// Unordered_set was introducted in c++ 11
-// It contains unique elements only, much like a set
-// Stores elements using a hash table
-// Combile with "g++ -std=c++11 unordered_set.cpp "
 #include <iostream>
 #include <unordered_set>
 using namespace std;

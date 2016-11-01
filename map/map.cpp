@@ -1,7 +1,3 @@
-// More info: http://www.cplusplus.com/reference/map/map/
-
-// Compile: "g++ -std=c++11 map.cpp"
-
 #include <iostream>
 #include <map>
 using namespace std;

@@ -1,6 +1,3 @@
-// More info: http://www.cplusplus.com/reference/set/set/
-
-// Compile using "g++ -std=c++11 set.cpp"
 #include <iostream>
 #include <set>
 using namespace std;

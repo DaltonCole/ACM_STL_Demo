@@ -1,8 +1,3 @@
-// More info: http://www.cplusplus.com/reference/list/list/
-
-// Doubly-Linked Lists 
-// Compile: "g++ -std=c++11 list.cpp"
-
 #include <iostream>
 #include <list>
 #include <cmath>

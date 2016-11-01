@@ -1,9 +1,3 @@
-// More info: http://www.cplusplus.com/reference/map/multimap/
-
-
-// Similar to map, but does NOT have to have unique keys
-// Compile "g++ -std=c++11 multimap.cpp"
-
 #include <iostream>
 #include <map>
 using namespace std;

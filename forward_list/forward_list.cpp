@@ -1,6 +1,3 @@
-// More info: http://www.cplusplus.com/reference/forward_list/forward_list/
-
-// Compile: "g++ -std=c++11 forward_list.cpp"
 #include <iostream>
 #include <forward_list>
 using namespace std;
