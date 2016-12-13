@@ -73,7 +73,7 @@ int main() {
 	cout << endl << endl;
 
 	// cr = const_reverse_iterator
-	cout << endl << "Printing t... reversed :D \t";
+	cout << endl << "Printing t.. reversed :D \t";
 	for(auto it = t.crbegin(); it != t.crend(); ++it) {
 		cout << *it << " ";
 	}
@@ -81,6 +81,14 @@ int main() {
 
 	// Is empty?
 	cout << "Is t empty?: \t" << t.empty() << endl; 
+
+	vector<int> q(4,2);
+	vector<int> p(3,3);
+
+	q.insert(q.begin()+1 p.begin(), p.end());
+	for(auto i : q) {
+		cout << i << endl;
+	}
 
 	return 0;
 }

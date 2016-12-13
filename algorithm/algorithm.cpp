@@ -1,6 +1,3 @@
-// More info: http://www.cplusplus.com/reference/algorithm/
-
-// Compile using
 #include <iostream>
 #include <algorithm>
 #include <vector>
