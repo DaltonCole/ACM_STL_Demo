@@ -11,11 +11,9 @@ struct Point {
 	unique_ptr<Point> next;
 
 	const Point & operator =(const Point & rhs) {
-		cout << "begin" << endl;
 		x = unique_ptr<int> (new int(*rhs.x));
-		y = unique_ptr<int> (new int(*rhs.x));
+		y = unique_ptr<int> (new int(*rhs.y));
 		next = unique_ptr<Point> (new Point(*rhs.next));
-		cout << "end" << endl;
 
 		return *this;
 	}
@@ -24,8 +22,7 @@ struct Point {
 
 	Point(const Point & rhs) {
 		x = unique_ptr<int> (new int(*rhs.x));
-		y = unique_ptr<int> (new int(*rhs.x));
-		cout << "t" << endl;
+		y = unique_ptr<int> (new int(*rhs.y));
 		if(rhs.next == nullptr) {
 			next = nullptr;
 		} else {
@@ -49,6 +46,19 @@ int main() {
 	cout << *a.next -> x << " " << *a.next -> y << endl;
 	*b.next -> y = 9;
 	cout << *b.next -> x << " " << *b.next -> y << endl;
+
+	Point c;
+	c = a;
+	c.next -> next = unique_ptr<Point> (new Point);
+	c.next -> next -> x = unique_ptr<int> (new int(12));
+	c.next -> next -> y = unique_ptr<int> (new int(99));
+	cout << *c.next -> x << " " << *c.next -> y << endl;
+	cout << *c.next -> next -> x << " " << *c.next -> next -> y << endl;
+
+	Point d;
+	d = c;
+	cout << *d.next -> x << " " << *d.next -> y << endl;
+	cout << *d.next -> next -> x << " " << *d.next -> next -> y << endl;
 
 	return 0;
 }
